@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(50, 50, 50, 0.8)
+    ),
+    url(/assets/header-img.jpg);
+}
+#main-sheet {
+  width: 40vw;
+  min-height: 80vh;
+  background-color: rgb(254, 225, 191);
+  margin: auto;
+  z-index: 40;
+  margin-top: 10vh;
+}
